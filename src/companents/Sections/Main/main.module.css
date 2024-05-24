@@ -1,0 +1,81 @@
+.container {
+    background-color:rgba(173, 145, 103, 0.992);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: background-color 500ms ease;
+    padding: 20px;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+ 
+  .nightMode {
+    background-color:  #55443e;
+    color: white;
+  }
+  
+  img {
+    width: 300px;
+    transition: transform 500ms ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  .smallFont {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 500ms ease;
+  }
+  
+  .fontChange {
+    font-size: 30px;
+    color: rgba(226, 222, 212, 0.753);
+    font-weight: 600;
+    transition: 500ms ease;
+  }
+  
+  .count {
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgb(116, 249, 0);
+    text-shadow: #000000;
+  }
+  
+  .changeCountStyle {
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(254, 0, 51);
+    transition: 1s ease-in-out;
+    text-shadow: #050505;
+  }
+  
+  .countContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes increaseFontSize {
+    from {
+      font-size: 20px;
+    }
+    to {
+      font-size: 30px;
+    }
+  }
+  .largeFont {
+    animation: increaseFontSize 0.5s ease;
+  }
+  

@@ -1,0 +1,38 @@
+.container{
+    background-color: rgba(173, 145, 103, 0.992);
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: 1s ease-in-out;
+}
+
+.containerDark{
+    background-color: #55443e;
+    height: 40px;
+    color: #fff;
+    transition: 1s ease;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.ulDark{
+    display: flex;
+    gap: 20px;
+    transition: 1s ease;
+}
+
+.changeFont{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    transition: 1s ease;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}

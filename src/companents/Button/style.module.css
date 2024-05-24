@@ -1,0 +1,19 @@
+button{
+    background-color: rgb(111, 84, 62);
+    width: 80px;
+    height: 30p;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.changeButton{
+    background-color: rgb(218, 197, 142);
+    width: 80px;
+    height: 30p;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
